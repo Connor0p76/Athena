@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B25237243BE39C00031962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B25236243BE39C00031962 /* AppDelegate.swift */; };
+		32B25239243BE39C00031962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B25238243BE39C00031962 /* SceneDelegate.swift */; };
+		32B2523B243BE39C00031962 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2523A243BE39C00031962 /* FirstViewController.swift */; };
+		32B2523D243BE39C00031962 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2523C243BE39C00031962 /* SecondViewController.swift */; };
+		32B25240243BE39C00031962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B2523E243BE39C00031962 /* Main.storyboard */; };
+		32B25242243BE39C00031962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B25241243BE39C00031962 /* Assets.xcassets */; };
+		32B25245243BE39C00031962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B25243243BE39C00031962 /* LaunchScreen.storyboard */; };
+		32B25250243BE39D00031962 /* AthenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2524F243BE39D00031962 /* AthenaTests.swift */; };
+		32B2525B243BE39D00031962 /* AthenaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2525A243BE39D00031962 /* AthenaUITests.swift */; };
+		32B25269243BE63600031962 /* prysm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32B25268243BE63600031962 /* prysm.jpg */; };
+		32B2526B243BE72F00031962 /* packix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32B2526A243BE72E00031962 /* packix.jpg */; };
+		32B2526D243BE8BC00031962 /* BlazeRepo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32B2526C243BE8BC00031962 /* BlazeRepo.jpg */; };
+		32B2526F243BE91100031962 /* SafeShutdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B2526E243BE91100031962 /* SafeShutdown.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32B2524C243BE39D00031962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B2522B243BE39C00031962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B25232243BE39C00031962;
+			remoteInfo = Athena;
+		};
+		32B25257243BE39D00031962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B2522B243BE39C00031962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B25232243BE39C00031962;
+			remoteInfo = Athena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32B25233243BE39C00031962 /* Athena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Athena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B25236243BE39C00031962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32B25238243BE39C00031962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32B2523A243BE39C00031962 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		32B2523C243BE39C00031962 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		32B2523F243BE39C00031962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32B25241243BE39C00031962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32B25244243BE39C00031962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32B25246243BE39C00031962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B2524B243BE39D00031962 /* AthenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AthenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B2524F243BE39D00031962 /* AthenaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaTests.swift; sourceTree = "<group>"; };
+		32B25251243BE39D00031962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B25256243BE39D00031962 /* AthenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AthenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B2525A243BE39D00031962 /* AthenaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaUITests.swift; sourceTree = "<group>"; };
+		32B2525C243BE39D00031962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B25268243BE63600031962 /* prysm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = prysm.jpg; path = ../../../Downloads/prysm.jpg; sourceTree = "<group>"; };
+		32B2526A243BE72E00031962 /* packix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = packix.jpg; path = ../../../Downloads/packix.jpg; sourceTree = "<group>"; };
+		32B2526C243BE8BC00031962 /* BlazeRepo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BlazeRepo.jpg; path = ../../../Downloads/BlazeRepo.jpg; sourceTree = "<group>"; };
+		32B2526E243BE91100031962 /* SafeShutdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SafeShutdown.png; path = ../../../Downloads/SafeShutdown.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B25230243BE39C00031962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B25248243BE39D00031962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B25253243BE39D00031962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B2522A243BE39C00031962 = {
+			isa = PBXGroup;
+			children = (
+				32B25235243BE39C00031962 /* Athena */,
+				32B2524E243BE39D00031962 /* AthenaTests */,
+				32B25259243BE39D00031962 /* AthenaUITests */,
+				32B25234243BE39C00031962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32B25234243BE39C00031962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B25233243BE39C00031962 /* Athena.app */,
+				32B2524B243BE39D00031962 /* AthenaTests.xctest */,
+				32B25256243BE39D00031962 /* AthenaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B25235243BE39C00031962 /* Athena */ = {
+			isa = PBXGroup;
+			children = (
+				32B25236243BE39C00031962 /* AppDelegate.swift */,
+				32B25238243BE39C00031962 /* SceneDelegate.swift */,
+				32B2523A243BE39C00031962 /* FirstViewController.swift */,
+				32B2523C243BE39C00031962 /* SecondViewController.swift */,
+				32B2523E243BE39C00031962 /* Main.storyboard */,
+				32B25241243BE39C00031962 /* Assets.xcassets */,
+				32B25243243BE39C00031962 /* LaunchScreen.storyboard */,
+				32B25246243BE39C00031962 /* Info.plist */,
+				32B2526A243BE72E00031962 /* packix.jpg */,
+				32B25268243BE63600031962 /* prysm.jpg */,
+				32B2526C243BE8BC00031962 /* BlazeRepo.jpg */,
+				32B2526E243BE91100031962 /* SafeShutdown.png */,
+			);
+			path = Athena;
+			sourceTree = "<group>";
+		};
+		32B2524E243BE39D00031962 /* AthenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				32B2524F243BE39D00031962 /* AthenaTests.swift */,
+				32B25251243BE39D00031962 /* Info.plist */,
+			);
+			path = AthenaTests;
+			sourceTree = "<group>";
+		};
+		32B25259243BE39D00031962 /* AthenaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32B2525A243BE39D00031962 /* AthenaUITests.swift */,
+				32B2525C243BE39D00031962 /* Info.plist */,
+			);
+			path = AthenaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B25232243BE39C00031962 /* Athena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B2525F243BE39D00031962 /* Build configuration list for PBXNativeTarget "Athena" */;
+			buildPhases = (
+				32B2522F243BE39C00031962 /* Sources */,
+				32B25230243BE39C00031962 /* Frameworks */,
+				32B25231243BE39C00031962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Athena;
+			productName = Athena;
+			productReference = 32B25233243BE39C00031962 /* Athena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32B2524A243BE39D00031962 /* AthenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B25262243BE39D00031962 /* Build configuration list for PBXNativeTarget "AthenaTests" */;
+			buildPhases = (
+				32B25247243BE39D00031962 /* Sources */,
+				32B25248243BE39D00031962 /* Frameworks */,
+				32B25249243BE39D00031962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B2524D243BE39D00031962 /* PBXTargetDependency */,
+			);
+			name = AthenaTests;
+			productName = AthenaTests;
+			productReference = 32B2524B243BE39D00031962 /* AthenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32B25255243BE39D00031962 /* AthenaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B25265243BE39D00031962 /* Build configuration list for PBXNativeTarget "AthenaUITests" */;
+			buildPhases = (
+				32B25252243BE39D00031962 /* Sources */,
+				32B25253243BE39D00031962 /* Frameworks */,
+				32B25254243BE39D00031962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B25258243BE39D00031962 /* PBXTargetDependency */,
+			);
+			name = AthenaUITests;
+			productName = AthenaUITests;
+			productReference = 32B25256243BE39D00031962 /* AthenaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B2522B243BE39C00031962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ConnorFX;
+				TargetAttributes = {
+					32B25232243BE39C00031962 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					32B2524A243BE39D00031962 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 32B25232243BE39C00031962;
+					};
+					32B25255243BE39D00031962 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 32B25232243BE39C00031962;
+					};
+				};
+			};
+			buildConfigurationList = 32B2522E243BE39C00031962 /* Build configuration list for PBXProject "Athena" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B2522A243BE39C00031962;
+			productRefGroup = 32B25234243BE39C00031962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B25232243BE39C00031962 /* Athena */,
+				32B2524A243BE39D00031962 /* AthenaTests */,
+				32B25255243BE39D00031962 /* AthenaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B25231243BE39C00031962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B2526D243BE8BC00031962 /* BlazeRepo.jpg in Resources */,
+				32B25245243BE39C00031962 /* LaunchScreen.storyboard in Resources */,
+				32B2526B243BE72F00031962 /* packix.jpg in Resources */,
+				32B2526F243BE91100031962 /* SafeShutdown.png in Resources */,
+				32B25242243BE39C00031962 /* Assets.xcassets in Resources */,
+				32B25240243BE39C00031962 /* Main.storyboard in Resources */,
+				32B25269243BE63600031962 /* prysm.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B25249243BE39D00031962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B25254243BE39D00031962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B2522F243BE39C00031962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B2523D243BE39C00031962 /* SecondViewController.swift in Sources */,
+				32B2523B243BE39C00031962 /* FirstViewController.swift in Sources */,
+				32B25237243BE39C00031962 /* AppDelegate.swift in Sources */,
+				32B25239243BE39C00031962 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B25247243BE39D00031962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B25250243BE39D00031962 /* AthenaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B25252243BE39D00031962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B2525B243BE39D00031962 /* AthenaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32B2524D243BE39D00031962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32B25232243BE39C00031962 /* Athena */;
+			targetProxy = 32B2524C243BE39D00031962 /* PBXContainerItemProxy */;
+		};
+		32B25258243BE39D00031962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32B25232243BE39C00031962 /* Athena */;
+			targetProxy = 32B25257243BE39D00031962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32B2523E243BE39C00031962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B2523F243BE39C00031962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32B25243243BE39C00031962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B25244243BE39C00031962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B2525D243BE39D00031962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32B2525E243BE39D00031962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B25260243BE39D00031962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL4UF5X5H2;
+				INFOPLIST_FILE = Athena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConnorFX.Athena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32B25261243BE39D00031962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL4UF5X5H2;
+				INFOPLIST_FILE = Athena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConnorFX.Athena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32B25263243BE39D00031962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL4UF5X5H2;
+				INFOPLIST_FILE = AthenaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConnorFX.AthenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Athena.app/Athena";
+			};
+			name = Debug;
+		};
+		32B25264243BE39D00031962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL4UF5X5H2;
+				INFOPLIST_FILE = AthenaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConnorFX.AthenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Athena.app/Athena";
+			};
+			name = Release;
+		};
+		32B25266243BE39D00031962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL4UF5X5H2;
+				INFOPLIST_FILE = AthenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConnorFX.AthenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Athena;
+			};
+			name = Debug;
+		};
+		32B25267243BE39D00031962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL4UF5X5H2;
+				INFOPLIST_FILE = AthenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ConnorFX.AthenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Athena;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B2522E243BE39C00031962 /* Build configuration list for PBXProject "Athena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B2525D243BE39D00031962 /* Debug */,
+				32B2525E243BE39D00031962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B2525F243BE39D00031962 /* Build configuration list for PBXNativeTarget "Athena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B25260243BE39D00031962 /* Debug */,
+				32B25261243BE39D00031962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B25262243BE39D00031962 /* Build configuration list for PBXNativeTarget "AthenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B25263243BE39D00031962 /* Debug */,
+				32B25264243BE39D00031962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B25265243BE39D00031962 /* Build configuration list for PBXNativeTarget "AthenaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B25266243BE39D00031962 /* Debug */,
+				32B25267243BE39D00031962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B2522B243BE39C00031962 /* Project object */;
+}
